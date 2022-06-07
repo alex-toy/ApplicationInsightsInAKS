@@ -1,2 +1,3 @@
-$RG = "resourcegroup"
-bash ./setup-script/test.sh $RG
+az acr repository delete --name alexeiacr --image alexeiacr.azurecr.io
+
+az acr credential show -n alexeiacr

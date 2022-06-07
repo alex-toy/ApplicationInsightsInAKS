@@ -15,13 +15,13 @@ az aks create --name $AKS `
     --attach-acr $ACR 
 
 # To connect to the Kubernetes cluster from your local computer, you use kubectl, 
-az aks install-cli
+# az aks install-cli
 
 # Configure kubectl to connect to your Kubernetes cluster
 az aks get-credentials --resource-group $resourceGroup --name $AKS
 
 # Verify the connection to your cluster
-kubectl get nodes
+# kubectl get nodes
 
 
 
